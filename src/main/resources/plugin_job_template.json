@@ -1,0 +1,27 @@
+{
+  "name": "influxdbreader",
+  "parameter": {
+    "endpoint": "http://192.168.142.135:8086",
+    "username": "csb",
+    "password": "123456",
+    "database": "csb",
+    "measurement": "SwDevice-Data",
+    "column": [
+      "__uid__",
+      "__time__",
+      "SN",
+      "CCID",
+      "ssyy",
+      "status",
+      "errHw",
+      "errSw",
+      "temperature",
+      "humidity",
+      "voltage",
+      "battery"
+    ],
+    "splitIntervalS": 6000000,
+    "beginDateTime": "2020-01-01 00:00:00",
+    "endDateTime": "2021-01-01 00:00:00"
+  }
+}
